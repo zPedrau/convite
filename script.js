@@ -20,8 +20,9 @@ function aceitar() {
     document.querySelector('.btn-container').style.display = 'none';
     document.getElementById('mensagem-final').style.display = 'block';
     setTimeout(() => {
-        const seuNumero = "+55 34987213997"; 
+        const seuNumero = "5534987213997"; 
         const mensagem = encodeURIComponent("Oi! Eu aceitei o convite nutricional! Quando vamos sair? 🥑");
-        window.location.href = `https://wa.me/${seuNumero}?text=${mensagem}`;
+        window.location.href = `https://wa.me/${5534987213997}?text=${"Oi! Eu aceitei o convite nutricional! Quando vamos sair? 🥑"}`;
     }, 2500);
+
 }
