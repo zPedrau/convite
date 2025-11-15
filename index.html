@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Nutricionalmente Perfeito</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <span class="icon">🥑❤️</span>
+        <h1>Aceita ir em um date comigo?</h1>
+        <p>
+           “Prometo um date leve, saudável e cheio de boas conversas…<strong>topa ser minha melhor escolha do dia?”</strong>.
+            <br><br>
+            Para reequilibrar seus macronutrientes emocionais, você aceita sair comigo?
+        </p>
+
+        <div class="btn-container">
+            <button class="btn btn-sim" onclick="aceitar()">Sim</button>
+            <button class="btn btn-nao" id="btn-nao" onmouseover="fugir()" onclick="fugir()">Não</button>
+        </div>
+
+        <div id="mensagem-final">
+            <p>Ótima escolha!🥰<br>c</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
